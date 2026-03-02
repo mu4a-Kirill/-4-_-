@@ -16,14 +16,13 @@ using System.Windows.Shapes;
 namespace Практическая_работа_4_Кузнецов_Кузьмин
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для Page2.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Page2 : Page
     {
-        public MainWindow()
+        public Page2()
         {
             InitializeComponent();
-            MainFrame.Navigate(new Page1());
         }
     }
 }
